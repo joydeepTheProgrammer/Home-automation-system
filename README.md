@@ -285,7 +285,3 @@ I (4567) HA_MAIN: Switch1 toggle -> Relay1 OFF
 Ensure the schematic pin mapping matches `config.h` before PCB fabrication.
 
 ---
-
-## Author
-
-Embedded Design Project — 2026-06-13
