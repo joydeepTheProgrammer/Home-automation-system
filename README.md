@@ -279,8 +279,7 @@ I (4567) HA_MAIN: Switch1 toggle -> Relay1 OFF
 
 ## Schematic
 
-- KiCad file: `home_automation.kicad_sch`
-- High-res PNG: `schematic_diagram.png`
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/57923ecd-d1ec-4159-be7f-e04a08a6db05" />
 
 Ensure the schematic pin mapping matches `config.h` before PCB fabrication.
 
