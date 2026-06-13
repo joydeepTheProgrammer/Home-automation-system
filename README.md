@@ -278,5 +278,6 @@ I (4567) HA_MAIN: Switch1 toggle -> Relay1 OFF
 ---
 
 ## Block Diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/00eda7f3-8312-4a24-834e-fcffd206a650" />
 
 ---
