@@ -15,7 +15,7 @@ A 4-channel WiFi-enabled relay board with physical wall switch support, built on
 - [MQTT Topics](#mqtt-topics)
 - [How It Works](#how-it-works)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
+- [MIT License](#mit-license)
 
 ---
 
@@ -284,18 +284,7 @@ I (4567) HA_MAIN: Switch1 toggle -> Relay1 OFF
 
 ---
 
-# License
-
-Unless otherwise specified, all content in this repository—including, but not
-limited to, software source code, firmware, hardware design files (schematics,
-PCB layouts, Gerber files, BOMs, CAD files), documentation, configuration
-files, examples, and supporting materials—is made available under the MIT
-License.
-
----
-
 ## MIT License
-
 
 Copyright (c) 2026 Joydeep Majumdar
 
