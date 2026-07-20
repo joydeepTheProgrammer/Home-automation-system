@@ -87,6 +87,12 @@ static void system_task(void *pvParameters)
             float h = read_humidity();
             mqtt_handler_publish_sensor(t, h);
             ESP_LOGI(TAG, "Sensor: T=%.1fC  H=%.1f%%", t, h);
+
+            if (t > THERMAL_SHUTDOWN_C) {
+                ESP_LOGE(TAG, "Thermal shutdown triggered! T=%.1fC", t);
+                relay_all_off();
+                mqtt_handler_publish_all_states();
+            }
         }
 
         if ((now - last_watchdog_ms) >= 10000) {

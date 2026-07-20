@@ -155,7 +155,7 @@ void mqtt_handler_publish_sensor(float temp, float humidity)
 {
     if (!mqtt_connected || client == NULL) return;
     char payload[128];
-    snprintf(payload, sizeof(payload), "{"temperature":%.1f,"humidity":%.1f}", temp, humidity);
+    snprintf(payload, sizeof(payload), "{\"temperature\":%.1f,\"humidity\":%.1f}", temp, humidity);
     esp_mqtt_client_publish(client, MQTT_TOPIC_STATUS, payload, strlen(payload), 0, 0);
 }
 
