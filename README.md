@@ -2,8 +2,6 @@
 
 A 4-channel WiFi-enabled relay board with physical wall switch support, built on the ESP32-WROOM-32 using ESP-IDF and MQTT.
 
-![Schematic](schematic.png)
-
 ---
 
 ## Table of Contents
